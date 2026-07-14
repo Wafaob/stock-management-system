@@ -34,13 +34,25 @@
 
     <form id="product-form">
 
-        <label for="product-name">>Nom du produit</label>
-
+        <label for="product-name">Nom du produit</label>
         <input type="text" id="product-name" name="product-name" required>
 
-        <label for="product-quantity">Quantité</label>
+        <label for="product-category">Catégorie</label>
+<select id="product-category" name="product-category" required>
+    <option value="" disabled selected>Choisir une catégorie</option>
+    <option value="alimentation">Alimentation</option>
+    <option value="hygiene">Hygiène</option>
+    <option value="maison">Maison</option>
+    <option value="electronique">Électronique</option>
+    <option value="autre">Autre</option>
+</select>
 
+
+        <label for="product-quantity">Quantité</label>
         <input type="number" id="product-quantity" name="product-quantity" min="0" required>
+
+        <label for="product-threshold">Seuil d’alerte</label>
+        <input type="number" id="product-threshold" name="product-threshold" min="0" value="5" required>
 
         <button type="submit">Ajouter le produit</button>
 
