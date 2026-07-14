@@ -60,12 +60,43 @@
 
     </section>
 
+    <section>
+        <h2>Rechercher et filtrer</h2>
+        <label for="product-search">Rechercher un produit</label>
+        <input type="search" id="product-search" name="product-search" placeholder="Rechercher par nom...">
 
+        <label for="category-filter">Filtrer par catégorie</label>
+        <select id="category-filter" name="category-filter">
+            <option value="all">Toutes les catégories</option>
+            <option value="alimentation">Alimentation</option>
+            <option value="hygiene">Hygiène</option>
+            <option value="maison">Maison</option>
+            <option value="electronique">Électronique</option>
+            <option value="autre">Autre</option>
 
-    <section><h2>Rechercher et filtrer</h2></section>
+        </select>
 
-    <section><h2>Produits en stock</h2></section>
+    </section>
 
+    <section><h2>Produits en stock</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Produit</th>
+                <th>Catégorie</th>
+                <th>Quantité</th>
+                <th>État du stock</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody id="product-list"> 
+        </tbody>
+        
+
+    </table>
+<p id="empty-message">Aucun produit en stock.</p>
+</section>
 </main>
 
 
