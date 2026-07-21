@@ -6,6 +6,9 @@
 
 A simple web application created to practice HTML, CSS and JavaScript.
 
+## Preview
+
+![Stock Management System preview](stock-management-preview.png)
 ## Project Goal
 
 The goal of this project is to build a simple application for managing products and stock quantities.
