@@ -1,5 +1,9 @@
 # Stock Management System
 
+## Live Demo
+
+[Open the application](https://wafaob.github.io/stock-management-system/)
+
 A simple web application created to practice HTML, CSS and JavaScript.
 
 ## Project Goal
